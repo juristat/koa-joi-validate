@@ -29,7 +29,7 @@ To use the module, call `validate` with an object containing Joi validation obje
 The following basic example will verify that any request to the server contains a properly formatted request ID header and user ID url query parameter.
 ```javascript
 const Koa = require('koa')
-const joi = require('joi')
+const joi = require('@hapi/joi')
 const validate = require('koa-joi-validate')
 
 const app = new Koa()
