@@ -1,6 +1,6 @@
 {
   "name": "@juristat/koa-joi-validate",
-  "version": "0.5.2",
+  "version": "0.5.3",
   "description": "Tiny module to generate request validation middleware for Koa using Joi.",
   "main": "index.js",
   "scripts": {},
@@ -15,6 +15,6 @@
   },
   "license": "MIT",
   "peerDependencies": {
-    "joi": "^14.3.0"
+    "joi": ">=14.3.0 <16"
   }
 }
